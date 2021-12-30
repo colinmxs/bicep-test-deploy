@@ -5,7 +5,7 @@ on:
       - completed
 name: Delete
 jobs:
-  build-and-deploy:
+  delete-azgroup:
     runs-on: ubuntu-latest
     steps:    
       # Log into Azure
