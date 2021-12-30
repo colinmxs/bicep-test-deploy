@@ -17,4 +17,4 @@ jobs:
       uses: Azure/cli@v1
       with:
         # Specify the script here
-        inlineScript: az group delete --name btd
+        inlineScript: az group delete --name btd --yes
