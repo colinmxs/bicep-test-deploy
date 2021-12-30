@@ -1,4 +1,8 @@
-on: [workflow_dispatch]
+on: 
+  workflow_run:
+    workflows: ["Create/Update"]
+    types:
+      - completed
 name: Delete
 jobs:
   build-and-deploy:
